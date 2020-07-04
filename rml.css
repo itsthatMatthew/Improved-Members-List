@@ -1,0 +1,16 @@
+.membersWrap-2h-GB4{
+  width: 0;
+  min-width:0;
+  position: relative;
+  left: 60px;
+  transition: all .25s ease;
+  opacity: .6;
+  padding-left: 60px;
+}
+
+.membersWrap-2h-GB4:hover{
+  width: 248px;
+  left:0;
+  opacity: 1;
+  padding: 0;
+}

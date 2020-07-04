@@ -1,6 +1,6 @@
-.membersWrap-2h-GB4{
+.membersWrap-2h-GB4 {
   width: 0;
-  min-width:0;
+  min-width: 0;
   position: relative;
   left: var(--retracted-width);
   transition: all var(--animation-time) ease;
@@ -8,9 +8,9 @@
   padding-left: var(--retracted-width);
 }
 
-.membersWrap-2h-GB4:hover{
+.membersWrap-2h-GB4:hover {
   width: 248px;
-  left:0;
+  left: 0;
   opacity: 1;
   padding: 0;
 }

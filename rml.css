@@ -2,10 +2,10 @@
   width: 0;
   min-width:0;
   position: relative;
-  left: 60px;
-  transition: all .25s ease;
-  opacity: .6;
-  padding-left: 60px;
+  left: var(--hidewidth);
+  transition: all var(--animationtime) ease;
+  opacity: var(--hideopacity);
+  padding-left: var(--hidewidth);
 }
 
 .membersWrap-2h-GB4:hover{

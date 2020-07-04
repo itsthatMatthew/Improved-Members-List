@@ -1,0 +1,17 @@
+/**
+ * @name RetractedMembersList
+ * @author ᵗʰᵃᵗMatthew#0734
+ * @version 0.3
+ * @description For a cleaner overall look. Attributes are customizable in the file. Thanks Abzzz#2002 for the idea!
+*/
+
+@import url("https://raw.githubusercontent.com/itsthatMatthew/RetractedMembersList/master/rml.css");
+
+:root {
+  /*Attributes. [default values]*/
+  --retracted-opacity: .6; /*The opacity with witch the retracted memberslist appears. [.6]*/
+  --retracted-width: 60px; /*The width of the retracted panel. [60px]*/
+  --animation-time: .25s; /*Time the animation takes to play. [.25s]*/
+}
+
+/*If you notice any problems with the theme, please contact me on discord!*/

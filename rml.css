@@ -1,4 +1,4 @@
-#app-mount .membersWrap-2h-GB4 {
+.membersWrap-2h-GB4 {
   width: 0;
   min-width: 0;
   position: relative;
@@ -7,7 +7,7 @@
   opacity: var(--retracted-opacity);
   padding-left: var(--retracted-width);
 }
-#app-mount .membersWrap-2h-GB4:hover {
+.membersWrap-2h-GB4:hover {
   width: 246px;
   left: 0;
   opacity: 1;

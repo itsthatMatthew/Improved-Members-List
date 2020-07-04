@@ -5,11 +5,12 @@
   left: var(--retracted-width);
   transition: all var(--animation-time) ease;
   opacity: var(--retracted-opacity);
-  padding-left: var(--retracted-width);
+  margin-left: var(--retracted-width);
 }
+
 .membersWrap-2h-GB4:hover{
   width: 246px;
   left: 0;
   opacity: 1;
-  padding: 0;
+  margin-left: calc( -246px + var(--retracted-width) + var(--chat-slide));
 }

@@ -13,12 +13,15 @@
 
 :root {
   /* SCHEME: --attributes: value; /* Explanation. [default value(s)] */
+  --retracted-width: 60px; /* The width of the retracted panel in retracted state. [60px] */
   --retracted-opacity: .6; /* The opacity with witch the retracted memberslist appears. [.6] */
-  --retracted-width: 60px; /* The width of the retracted panel. [60px] */
   --animation-time: .25s; /* Time the animation takes to play. [.25s] */
+  --memberslist-width: 246px; /* The width of the retracted panel when hovered over. [246px] */
+  --scrollbar-distance: 0px; /* The distance of the chat panel's scrollbar to the members list (retracted if --chatslide: 0px;). [0px] (can be negative... if you want that for whatever reason) */
   --chat-slide: 0px; /* How much the chat panel slides when you hover over the members list (positive = left). [0px] (none) or [186px] (full) */
-  --groups-color: #fff; /* A choosen "accent" color (hex.), which the role groups will be displayed with. [#fff]*/
+  --groups-color: #fffcff; /* A choosen "accent" color (hex.), which the role groups will be displayed with. [##fffcff]*/
   --groups-background: #2f3136; /* A choosen background color (hex.) for the role groups. [#2f3136] */
+  /*--groups-stay-top: no;/* Member groups stay at the top of the panel (if the attribute is commented). Delete (or add) the [/*] part to the front to change this setting. */
 }
 
 /* NOTE: If you experience any problems with the theme, please contact me on discord! */

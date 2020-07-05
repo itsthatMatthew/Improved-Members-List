@@ -5,14 +5,26 @@
   left: var(--retracted-width);
   transition: all var(--animation-time) ease;
   opacity: var(--retracted-opacity);
-  margin-left: var(--retracted-width);
+  margin-left: calc( var(--retracted-width) + var(--scrollbar-distance) );
 }
 
 .membersWrap-2h-GB4:hover{
-  width: 246px;
+  width: var(--memberslist-width);
   left: 0;
   opacity: 1;
-  margin-left: calc( -246px + var(--retracted-width) + var(--chat-slide));
+  margin-left: calc(( -1 * var(--memberslist-width) ) + var(--retracted-width) + var(--chat-slide) + var(--scrollbar-distance) );
+}
+
+.membersWrap-2h-GB4:hover>.members-1998pB{
+  width: var(--memberslist-width)
+}
+
+.members-1998pB{
+  max-width: var(--memberslist-width);
+}
+
+.member-3-YXUe{
+  max-width: var(--memberslist-width);
 }
 
 .membersGroup-v9BXpm{
@@ -20,7 +32,7 @@
   background: var(--groups-background);
   padding-top: 12px;
   border-left: 3px solid var(--groups-color);
-  position: sticky;
+  position: var(--groups-stay-top, sticky);
   z-index: 1;
   top: 0;
 }

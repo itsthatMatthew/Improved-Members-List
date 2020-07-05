@@ -18,5 +18,5 @@
 .membersGroup-v9BXpm{
   color: var(--groups-color);
   padding-top:12px;
-  border-left: 3px solid #fff;
+  border-left: 3px solid var(--groups-color);
 }

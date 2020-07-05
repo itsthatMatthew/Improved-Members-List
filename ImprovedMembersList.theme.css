@@ -1,0 +1,19 @@
+/**
+ * @name Imporved Members List
+ * @author ᵗʰᵃᵗMatthew#0734
+ * @version 0.5
+ * @description For a cleaner overall look. Attributes are customizable in the file!
+ * @source https://github.com/itsthatMatthew/RetractedMembersList/
+*/
+
+@import url("https://itsthatmatthew.github.io/RetractedMembersList/iml.css");
+
+:root {
+  /*Attributes. [default values]*/
+  --retracted-opacity: .6; /*The opacity with witch the retracted memberslist appears. [.6]*/
+  --retracted-width: 60px; /*The width of the retracted panel. [60px]*/
+  --animation-time: .25s; /*Time the animation takes to play. [.25s]*/
+  --chat-slide: 0px; /*How much the chat panel slides when you hover over the members list (positive = left). [0px] or [186px]*/
+}
+
+/*If you experience any problems with the theme, please contact me on discord!*/

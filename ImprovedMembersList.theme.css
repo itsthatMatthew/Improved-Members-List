@@ -17,7 +17,7 @@
   --retracted-width: 60px; /* The width of the retracted panel. [60px] */
   --animation-time: .25s; /* Time the animation takes to play. [.25s] */
   --chat-slide: 0px; /* How much the chat panel slides when you hover over the members list (positive = left). [0px] (none) or [186px] (full) */
-  --groups-color: #fff; /*A choosen "accent" color (hex.) witch the role groups will be displayed with. [#fff]*/
+  --groups-color: #fff; /*A choosen "accent" color (hex.), which the role groups will be displayed with. [#fff]*/
 }
 
 /* NOTE: If you experience any problems with the theme, please contact me on discord! */

@@ -14,3 +14,7 @@
   opacity: 1;
   margin-left: calc( -246px + var(--retracted-width) + var(--chat-slide));
 }
+
+.membersGroup-v9BXpm{
+  color:#fff;
+}

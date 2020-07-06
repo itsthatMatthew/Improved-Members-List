@@ -36,3 +36,44 @@
   z-index: 1;
   top: 0;
 }
+
+.member-3-YXUe{
+  margin:0;
+  padding-left: 8px;
+  border-radius: 0;
+  color: var(--members-online-color);
+  background: var(--members-background);
+}
+
+.offline-3nJYBR{
+  color: var(--members-offline-color);
+}
+
+.membersWrap-2h-GB4>.thin-1ybCId{
+  background: var(--groups-background);
+}
+
+.thin-1ybCId::-webkit-scrollbar-thumb{
+  background-color: var(--groups-color);
+}
+
+.listContent-2_qb-y{
+  width: var(--memberslist-width);
+}
+
+.marginBottom20-32qID7>.selectable-2GY4I1{
+  filter: blur(0);
+}
+
+.selectable-2GY4I1, .colorStandard-2KCXvj span{
+  filter: blur(var(--personals-blur-size));
+  transition: all .1s ease;
+}
+
+.selectable-2GY4I1:hover, .colorStandard-2KCXvj span:hover{
+  filter: blur(0);
+}
+
+.inputWrapper-31_8H8{
+  filter: blur(0);
+}

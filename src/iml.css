@@ -60,20 +60,3 @@
 .listContent-2_qb-y{
   width: var(--memberslist-width);
 }
-
-.marginBottom20-32qID7>.selectable-2GY4I1{
-  filter: blur(0);
-}
-
-.selectable-2GY4I1, .colorStandard-2KCXvj span{
-  filter: blur(var(--personals-blur-size));
-  transition: all .1s ease;
-}
-
-.selectable-2GY4I1:hover, .colorStandard-2KCXvj span:hover{
-  filter: blur(0);
-}
-
-.inputWrapper-31_8H8{
-  filter: blur(0);
-}

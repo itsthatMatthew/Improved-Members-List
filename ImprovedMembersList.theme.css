@@ -1,7 +1,7 @@
 /**
  * @name Imporved Members List
- * @author ᵗʰᵃᵗMatthew#0734
- * @version 0.9.2
+ * @author ᵗʰᵃᵗMatthew#0222
+ * @version 0.9.3
  * @description For greater overall customizability. Attributes are customizable in the file!
  * @source https://github.com/itsthatMatthew/Improved-Members-List/
 */
@@ -13,10 +13,10 @@
 
 :root {
   /* SCHEME: --attribute: value; /* Explanation. [default value(s)] */
+  --memberslist-width: 246px; /* The width of the retracted panel when hovered over. [246px] */
   --retracted-width: 60px; /* The width of the retracted panel in retracted state. [60px] */
   --retracted-opacity: .6; /* The opacity with witch the retracted memberslist appears. [.6] */
   --animation-time: .25s; /* Time the animation takes to play. [.25s] */
-  --memberslist-width: 246px; /* The width of the retracted panel when hovered over. [246px] */
   --scrollbar-distance: 0px; /* The distance of the chat panel's scrollbar to the members list. [0px] */
   --chat-slide: 0px; /* How much the chat panel's right edge slides when you hover over the members list (positive = left). [0px] (none) or [186px] (full) */
   --members-online-color: #fffcff; /* Displays the online members with this color (does not overwrite role colors!). [#fffcff] */
@@ -24,6 +24,5 @@
   --members-background: #2f3136; /* The choosen background color (hex.) applied for every member of the list. [#2f3136] */
   --groups-color: #fffcff; /* The choosen "accent" color (hex.), which the role groups will be displayed with. [#fffcff] */
   --groups-background: #2f3136; /* The choosen background color (hex.) for the role groups. [#2f3136] */
-  --personals-blur-size: 5px; /* Blurs your username and e-mail address in the settings unless you hover over them. [5px] */
   /*--groups-stay-top: no; /* Member groups stay at the top of the panel (if the attribute is commented). Delete (or add) the [/*] part to the front to change this setting. */
 }

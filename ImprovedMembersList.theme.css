@@ -1,28 +1,29 @@
 /**
  * @name Imporved Members List
  * @author ᵗʰᵃᵗMatthew#0222
- * @version 0.9.3
+ * @version 1.0
  * @description For greater overall customizability. Attributes are customizable in the file!
  * @source https://github.com/itsthatMatthew/Improved-Members-List/
 */
 
-/* WARNING: this is a WIP file, please keep that in mind! If you experience any problems with the theme, please contact me on discord! */
+/* WARNING: If you experience any problems with the theme, please contact me on discord! */
 /* NOTE: the theme works well with Gibbu's "RadialStatus" theme and DevilBro's "BadgesEverywhere" plugin, give them a try! */
 
 @import url("https://itsthatmatthew.github.io/Improved-Members-List/src/iml.css");
 
 :root {
   /* SCHEME: --attribute: value; /* Explanation. [default value(s)] */
-  --memberslist-width: 246px; /* The width of the retracted panel when hovered over. [246px] */
-  --retracted-width: 60px; /* The width of the retracted panel in retracted state. [60px] */
-  --retracted-opacity: .6; /* The opacity with witch the retracted memberslist appears. [.6] */
-  --animation-time: .25s; /* Time the animation takes to play. [.25s] */
-  --scrollbar-distance: 0px; /* The distance of the chat panel's scrollbar to the members list. [0px] */
-  --chat-slide: 0px; /* How much the chat panel's right edge slides when you hover over the members list (positive = left). [0px] (none) or [186px] (full) */
-  --members-online-color: #fffcff; /* Displays the online members with this color (does not overwrite role colors!). [#fffcff] */
-  --members-offline-color: #fffcff; /* Displays the offline members with this color (does not overwrite role colors!). [#fffcff] */
-  --members-background: #2f3136; /* The choosen background color (hex.) applied for every member of the list. [#2f3136] */
-  --groups-color: #fffcff; /* The choosen "accent" color (hex.), which the role groups will be displayed with. [#fffcff] */
+  --chat-slide: 1; /* How much the chat panel's right edge slides when you hover over the members list. [0] (none) or [1] (full) */
   --groups-background: #2f3136; /* The choosen background color (hex.) for the role groups. [#2f3136] */
+  --groups-color: #fffcff; /* The choosen "accent" color (hex.), which the role groups will be displayed with. [#fffcff] */
   /*--groups-stay-top: no; /* Member groups stay at the top of the panel (if the attribute is commented). Delete (or add) the [/*] part to the front to change this setting. */
+  --members-background: #2f3136; /* The choosen background color (hex.) applied for every member of the list. [#2f3136] */
+  --memberslist-width: 232px; /* The width of the retracted panel when hovered over. [232px] */
+  --members-offline-color: #8e9297; /* Displays the offline members with this color (does not overwrite role colors!). [#8e9297] */
+  --members-online-color: #8e9297; /* Displays the online members with this color (does not overwrite role colors!). [#8e9297] */
+  --retracted-opacity: .6; /* The opacity with witch the retracted memberslist appears. [.6] */
+  --retracted-width: 56px; /* The width of the retracted panel in retracted state. [56px] */
+  --scrollbar-distance: 0px; /* The distance of the chat panel's scrollbar to the members list. [0px] */
+  --slide-delay: .33s; /* Tthe amount of time the animation is benig held back (helps if you occasionally miss the emoji button and get annoyed). [.33s] */
+  --slide-time: .25s; /* The amount of time the animation takes to play. [.25s] */
 }

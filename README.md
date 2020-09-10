@@ -1,4 +1,4 @@
 # Improved Members List
-Improved Members List v0.9.3 by ᵗʰᵃᵗMatthew#0222
-Beta version, WIP file, please keep all these in mind!
-Other than that, enjoy it. Any feedback is welcomed.
+Improved Members List v1.0 by ᵗʰᵃᵗMatthew#0222
+Enjoy your time with it!
+Any feedback is welcomed.
